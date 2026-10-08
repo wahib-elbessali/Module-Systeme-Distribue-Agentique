@@ -71,7 +71,7 @@ def ajouter_bonus(note, bonus=2):
 x = 10
 resultat = ajouter_bonus(x)
 print(f"Valeur retournée : {resultat}")
-print(f"x après l'appel : {x}")
+print(f"x après l'appel : {x}  -> la valeur initiale est restée intacte")
 
 notes = [12.0, 15.5]
 nouvelles_notes = list(map(ajouter_bonus, notes))
