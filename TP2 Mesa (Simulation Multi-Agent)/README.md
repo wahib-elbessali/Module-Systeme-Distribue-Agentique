@@ -16,7 +16,7 @@ Formation de l'opinion publique : simulation à base d'agents avec **Mesa 3**.
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate            # Linux/macOS : source .venv/bin/activate
+.venv\Scripts\activate
 pip install -r requirements.txt
 jupyter nbconvert --to notebook --execute --inplace TP2Mesa_Simulation_MA.ipynb
 ```
