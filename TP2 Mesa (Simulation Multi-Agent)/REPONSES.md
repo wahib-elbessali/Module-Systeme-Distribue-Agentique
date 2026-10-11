@@ -188,16 +188,15 @@ class CitizenAgentV2(mesa.Agent):
         super().__init__(model)
         self.opinion = self.model.random.random()
         self.alpha = alpha
-        self.epsilon = epsilon          # seuil de tolérance
+        self.epsilon = epsilon
 
     def step(self):
         neighbors = self.model.grid.get_neighbors(self.pos, moore=True, include_center=False)
 
-        # Biais de confirmation : on n'écoute que les voisins "assez proches" de sa propre opinion
         if self.epsilon is not None:
             neighbors = [n for n in neighbors if abs(n.opinion - self.opinion) < self.epsilon]
 
-        if len(neighbors) > 0:          # si personne n'est assez proche, l'agent ne bouge pas
+        if len(neighbors) > 0:
             mean_opinion = np.mean([n.opinion for n in neighbors])
             self.opinion = self.opinion + self.alpha * (mean_opinion - self.opinion)
 ```

@@ -10,7 +10,6 @@ Formation de l'opinion publique : simulation à base d'agents avec **Mesa 3**.
 | [`REPONSES.md`](REPONSES.md) | Document de réponses aux 8 questions de la section 5, appuyé sur les résultats du notebook |
 | [`captures/`](captures) | Captures d'écran du notebook exécuté (code + sorties), une par section |
 | [`figures/`](figures) | Graphiques générés par le notebook (enregistrés par `fig.savefig`) |
-| [`enonce/`](enonce) | Notebook d'énoncé d'origine, non modifié |
 | [`requirements.txt`](requirements.txt) | Dépendances Python |
 
 ## Reproduire
