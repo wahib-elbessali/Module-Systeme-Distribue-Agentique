@@ -1,0 +1,13 @@
+{
+  "zero_shot": 1.0,
+  "few_shot": 1.0,
+  "cot": 1.0,
+  "run_0_few_shot": 1.0,
+  "run_0_cot": 1.0,
+  "run_1_few_shot": 1.0,
+  "run_1_cot": 1.0,
+  "run_2_few_shot": 1.0,
+  "run_2_cot": 1.0,
+  "run_3_few_shot": 1.0,
+  "run_3_cot": 1.0
+}

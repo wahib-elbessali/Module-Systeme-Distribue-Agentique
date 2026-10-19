@@ -1,0 +1,23 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "num_gold_examples": 20,
+  "single_draw": {
+    "zero_shot": 1.0,
+    "few_shot": 1.0,
+    "cot": 1.0
+  },
+  "repeated_runs": {
+    "few_shot": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "cot": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}
